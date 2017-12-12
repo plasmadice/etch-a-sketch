@@ -4,6 +4,7 @@ let grids = 0; // # of columns
 let columns = ''; // holds 'auto' for style of grids
 let targetGrid;
 let element;
+let lines = true;
 container = document.querySelector('.grid-container');
 
 function createGrid(a) { // creates each grid
@@ -55,5 +56,12 @@ function wipeGrid() {
     columns = '';
 }
 
-
-
+function toggleLines() {
+    if (lines == true) {
+        container.style.gridGap = '0px';
+        lines = false;
+    } else {
+        container.style.gridGap = '1px';
+        lines = true;
+    }
+}

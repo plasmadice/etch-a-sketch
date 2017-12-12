@@ -8,3 +8,4 @@ This project gave me a deeper understanding of eventlisteners. That was especial
 
 Revisions:
 12/11/17: Initial commit, working model
+12/11/17: Added function to toggle lines
